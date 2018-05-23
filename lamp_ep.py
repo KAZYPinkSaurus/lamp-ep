@@ -1,10 +1,9 @@
-import sys
 import math
 import pandas as pd
 import numpy as np
 
 class Lamp_ep():
-    def __init__(self,aA,aQ,aMax_min_sup,aDataset):
+    def __init__(self,aA=0.7,aQ=0.05,aMax_min_sup=100,aDataset=pd.DataFrame()):
         """
         a in (0,1)
 
